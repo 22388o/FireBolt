@@ -2,9 +2,8 @@
 plugins {
     id 'com.android.application' version '7.4.2' apply false
     id 'com.android.library' version '7.4.2' apply false
-    id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.0.0' apply false
 }
-
-//Lighningdevkit
-implementation 'org.lightningdevkit:ldk-garbagecollected: 0.0.114.0'
-
+//LDK and BDK implementation
+implementation "org.bitcoindevkit:bitcoindevkit-core:<0.28.0>"
+implementation "org.lightningdevkit:lightningdevkit:<0.0.114.0 >"

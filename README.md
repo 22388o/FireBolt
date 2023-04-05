@@ -1,15 +1,13 @@
 # FireBolt
 
-# FireBolt
-
 App wallet for Android
 
 # Feature
 
--Lightning Network
+- Lightning Network
 
--Nostr
+- Nostr
 
--Bitcoin
+- Bitcoin
 
 - No shitcoins or stablecoins

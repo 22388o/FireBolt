@@ -3,8 +3,8 @@ plugins {
     id 'com.android.application' version '7.4.2' apply true
     id 'com.android.library' version '7.4.2' apply true
     id 'org.jetbrains.kotlin.android' version '1.0.0' apply true
-    id 'org.bitcoindevkit:bitcoindevkit-core' version '0.28.0' apply true
-    id 'org.lightningdevkit:lightningdevkit' version '0.0.114.0' apply true
+    id 'org.bitcoindevkit:bitcoindevkit-core' version '0.28.0' apply false
+    id 'org.lightningdevkit:lightningdevkit' version '0.0.114.0' apply false
 }
 //LDK and BDK implementation
 implementation "org.bitcoindevkit:bitcoindevkit-core:<0.28.0>"
